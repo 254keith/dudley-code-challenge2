@@ -1,8 +1,7 @@
-
+//you will get a prompt asking you to enter a text
 const input1 = prompt('enter text')
-
+//working on the function meant to swapcharacters
 function swapCase(InputString) {
-  // const input1 = prompt('enter text')
   let result = '';
   for (let char of InputString){
     if (char === char.toUpperCase()) {
@@ -16,6 +15,6 @@ function swapCase(InputString) {
   return result;
 
 }
-
+//for the program to work you need to call the function
 console.log(swapCase(input1));
 window.alert(swapCase(input1));
