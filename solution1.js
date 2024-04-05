@@ -1,4 +1,8 @@
+
+const input1 = prompt('enter text')
+
 function swapCase(InputString) {
+  // const input1 = prompt('enter text')
   let result = '';
   for (let char of InputString){
     if (char === char.toUpperCase()) {
@@ -10,8 +14,8 @@ function swapCase(InputString) {
     }
   }
   return result;
+
 }
-//Example usage:
-const input = "The Quick Brown Fox";
-const output = swapCase(input);
-console.log(output);
+
+console.log(swapCase(input1));
+window.alert(swapCase(input1));
